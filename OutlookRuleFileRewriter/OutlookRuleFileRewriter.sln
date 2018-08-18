@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OutlookRuleFileRewriter", "OutlookRuleFileRewriter\OutlookRuleFileRewriter.csproj", "{EDFCB9A1-D462-43BA-87A9-BBD38E27E443}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDFCB9A1-D462-43BA-87A9-BBD38E27E443}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDFCB9A1-D462-43BA-87A9-BBD38E27E443}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDFCB9A1-D462-43BA-87A9-BBD38E27E443}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDFCB9A1-D462-43BA-87A9-BBD38E27E443}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B15EBA60-5EB4-47F9-BA06-2B9C47715960}
+	EndGlobalSection
+EndGlobal
