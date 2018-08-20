@@ -23,7 +23,7 @@ namespace OutlookRuleFileRewriter
         public RemoveStories()
         {
             InitializeComponent();
-            PopulateStoriesListBox();
+            DataContext = new ViewModels.RemoveStories(stories);
         }
 
         string[] stories = new string[] { "XP-7102", "XP-6345", "XP-3479"};

@@ -57,9 +57,12 @@
     <Compile Include="Home.xaml.cs">
       <DependentUpon>Home.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Models\UserStory.cs" />
     <Compile Include="RemoveStories.xaml.cs">
       <DependentUpon>RemoveStories.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ViewModels\AddStories.cs" />
+    <Compile Include="ViewModels\RemoveStories.cs" />
     <Page Include="AddStories.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

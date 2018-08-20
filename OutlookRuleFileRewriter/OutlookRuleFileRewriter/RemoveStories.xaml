@@ -18,9 +18,15 @@
             </ColumnDefinition>
         </Grid.ColumnDefinitions>
 
-        <ListBox Grid.Column="0" Margin="10,10,10,10" Name="storiesListBox">
-
-        </ListBox>
+    <ListBox Grid.Column="0" Margin="10,10,10,10" Name="storiesListBox" ItemsSource="{Binding UserStories}" SelectionMode="Multiple">
+          <ListBox.ItemTemplate>
+            <DataTemplate>
+              <StackPanel Orientation="Horizontal">
+                <TextBlock  Text="{Binding StoryNumber}"/>
+              </StackPanel>
+            </DataTemplate>
+          </ListBox.ItemTemplate>
+    </ListBox>
         <Button Width="50" Height="25" HorizontalAlignment="Center" Click="Remove_Stories_Click" Grid.ColumnSpan="2" Margin="170,100,5,100">Remove</Button>
 
         <Grid.Background>

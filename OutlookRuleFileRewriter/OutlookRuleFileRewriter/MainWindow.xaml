@@ -5,6 +5,6 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:OutlookRuleFileRewriter"
         mc:Ignorable="d"
-        Title="Outlook Rule File Rewriter" Height="225" Width="225" Source="Home.xaml">
+        Title="Outlook Rule File Rewriter" Height="325" Width="325" MinHeight="325" MinWidth="325" Source="Home.xaml">
 
 </NavigationWindow>
